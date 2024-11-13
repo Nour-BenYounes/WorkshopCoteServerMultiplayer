@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9FCC13FF-AD53-0645-9424-E479CBF99202}</ProjectGuid>
+    <ProjectGuid>{623D8A61-EEB2-7045-2C2F-120A784A22EB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -1059,55 +1059,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{B4CA9F3A-D6DC-4A24-DA74-4BBF22FEAAED}</Project>
+      <Project>{F5019A37-72DF-161D-8C46-B67B5BEC56F6}</Project>
       <Name>Mirror.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="EncryptionTransportEditor.csproj">
-      <Project>{E18A8EA3-C9B6-3FE9-8C44-9509363992CD}</Project>
+      <Project>{A88AF4E9-F52D-299A-387A-D363B31FF264}</Project>
       <Name>EncryptionTransportEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{465FC6FF-4841-74E9-AE0B-4F3FA86B5D7A}</Project>
+      <Project>{41427183-A469-2EB0-2C5C-A2F5A5BD2777}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Transports.csproj">
-      <Project>{F6130CFF-E99F-DF72-5DE7-481FF4EADFFA}</Project>
+      <Project>{5875C1A7-76DA-B20F-109C-7B5086525BA2}</Project>
       <Name>Mirror.Transports</Name>
     </ProjectReference>
     <ProjectReference Include="ParrelSync.csproj">
-      <Project>{E0E3A9F8-A34D-6B26-38DB-F3D2BBD64604}</Project>
+      <Project>{38936372-AA27-649F-50F4-1C694B6B2E78}</Project>
       <Name>ParrelSync</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{CD9ADC9E-BFE7-B574-801E-D03163296DC9}</Project>
+      <Project>{457D184C-A712-8E9C-843E-29E0D34374A0}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="Telepathy.csproj">
-      <Project>{D7EFCCA0-79E9-CF8E-A49F-F99DCF65DF74}</Project>
+      <Project>{A7B8FD47-D0E3-8C39-E496-14C6E10E3DF3}</Project>
       <Name>Telepathy</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{2F3E9C3C-C4E2-ACFC-C0B2-E80B318459A9}</Project>
+      <Project>{9E0B2B19-C02F-E627-B21A-9BB661CB485E}</Project>
       <Name>SimpleWebTransport</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{EF233A83-23CE-A2A3-6EFD-14B3FD32D26B}</Project>
+      <Project>{F02D5463-17C9-D9CA-9C14-3F3426C45022}</Project>
       <Name>Mirror.CompilerSymbols</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{77F468CB-2313-1EE7-2E0B-B5BD43238FDF}</Project>
+      <Project>{CC504D0F-3756-A392-3C2E-767631724D41}</Project>
       <Name>Mirror.Authenticators</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{711DAB42-17AE-E88B-7352-701A556B4725}</Project>
+      <Project>{70A1CEB8-1095-7669-394C-75C202C73D21}</Project>
       <Name>Mirror.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="Edgegap.csproj">
-      <Project>{CF03B963-F8EC-0EF5-7639-83D816BC6363}</Project>
+      <Project>{8345E133-93EE-B786-B81E-2429EBBBB820}</Project>
       <Name>Edgegap</Name>
     </ProjectReference>
     <ProjectReference Include="kcp2k.csproj">
-      <Project>{E96945B3-8CFA-EFE4-1717-49ABB11ABE5D}</Project>
+      <Project>{C701DE2B-F8F5-102F-188F-D8C98F34D6EA}</Project>
       <Name>kcp2k</Name>
     </ProjectReference>
   </ItemGroup>

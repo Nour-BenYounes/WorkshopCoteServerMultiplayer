@@ -3784,7 +3784,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2104d2aff107b4381a4839afa29bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10000
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  maxHealth: 100
   Healthnbrtxt: {fileID: 8948725425844298242}
 --- !u!114 &3202796188873896388
 MonoBehaviour:

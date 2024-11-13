@@ -9,8 +9,8 @@ public class PlayerHealth : NetworkBehaviour
     private float currentHealth ;
     public static bool isDead = false; 
     public TextMeshProUGUI Healthnbrtxt;
+   // public TextMeshProUGUI deathanoucementtxt;
 
-    
 
     private void OnHealthChanged(float oldHealth, float newHealth)
     {
@@ -18,16 +18,19 @@ public class PlayerHealth : NetworkBehaviour
     }
 
     [Command]
-    public void commandhealth(float newHealth)
+    public void cmdcommandhealth(float newHealth)
     {
         currentHealth = newHealth;
         UpdateHealthText(newHealth);
+       
     }
+  
+
     public override void OnStartLocalPlayer()
     {
         base.OnStartLocalPlayer();
         isDead = false;
-        commandhealth(maxHealth);
+        cmdcommandhealth(maxHealth);
 
     }
 
@@ -38,7 +41,7 @@ public class PlayerHealth : NetworkBehaviour
        // currentHealth -= damageAmount;
        
         Debug.Log("Player Health: " + currentHealth);
-        commandhealth(currentHealth - damageAmount);
+        cmdcommandhealth(currentHealth - damageAmount);
 
 
         if (currentHealth <= 0)
@@ -51,9 +54,25 @@ public class PlayerHealth : NetworkBehaviour
     private void Die()
     {
         isDead = true;
-        Debug.Log("Player has died.");
+       // Debug.Log("Player has died.");
         Healthnbrtxt.text = "Dead";  
     }
+
+    [Command]
+    private void cmddeathannoucement()
+    {
+
+        DieRPC();
+
+    }
+    [ClientRpc]
+    private void DieRPC()
+    {
+
+        Debug.Log("Player has died.");
+
+    }
+
 
     private void UpdateHealthText(float newHealth)
     {
