@@ -1,8 +1,15 @@
 using Mirror;
+using Telepathy;
 using UnityEngine;
 
 public class EnemyPatrol : NetworkBehaviour
 {
+
+    public float firerate = 0.5f;
+    public float fireratetime = 1f;
+    public Transform firepoint;
+    public GameObject bulletPrefab;
+
     public Transform pointA;
     public Transform pointB;
     public float patrolSpeed = 2f;
@@ -22,8 +29,9 @@ public class EnemyPatrol : NetworkBehaviour
 
     void Update()
     {
+        if(!isServer) { return; }
         FindClosestPlayerInRange();
-
+        bulletshoot();
         if (chaseTarget != null)
         {
             ChasePlayer();
@@ -103,9 +111,9 @@ public class EnemyPatrol : NetworkBehaviour
             PlayerHealth playerHealth = other.transform.parent.GetComponentInParent<PlayerHealth>();
             if (playerHealth != null )
             {
-                Debug.Log("Player is in the trigger zone!");
+                //Debug.Log("Player is in the trigger zone!");
                 playerHealth.TakeDamage(damageAmount * Time.deltaTime);
-                Debug.Log("Player is taking damage from enemy!");
+                //Debug.Log("Player is taking damage from enemy!");
             }
         }
     }
@@ -119,4 +127,41 @@ public class EnemyPatrol : NetworkBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, returnRange);
     }
+
+
+
+
+    /////////////bullet spwan
+    [Server]
+    private void cmdbulletspawn()
+    {
+        GameObject bullet = Instantiate(bulletPrefab,firepoint.position, firepoint.rotation);
+        NetworkServer.Spawn(bullet);
+    }
+  
+    private void bulletshoot()
+    {
+        if (fireratetime > 0)
+        {
+            fireratetime -= Time.deltaTime;
+
+        }
+        else
+        {
+            cmdbulletspawn();
+            fireratetime = 1/firerate;
+        }
+       
+    }
+
+    public override void OnStartServer()
+    {
+        base.OnStartServer();
+      
+    }
+
+
+
+
+
 }

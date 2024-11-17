@@ -16,7 +16,7 @@ public class Controller : NetworkBehaviour
 
     public GameObject[] playerModels;
     [SyncVar(hook = nameof(OnModelIndexChanged))]
-    private int modelIndex = -1;
+    public int modelIndex = -1;
     private static int modelIndexCounter = 0;
 
     private void OnModelIndexChanged(int oldIndex, int newIndex)
@@ -27,7 +27,7 @@ public class Controller : NetworkBehaviour
             model.SetActive(false);
         }
 
-        Debug.Log("rererre"+newIndex);
+        //Debug.Log("rererre"+newIndex);
         if (newIndex >= 0 && newIndex < playerModels.Length)
         {
             playerModels[newIndex].SetActive(true);

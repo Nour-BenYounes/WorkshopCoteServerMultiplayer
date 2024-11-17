@@ -386,10 +386,12 @@
 -analyzer:"D:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Billboard.cs"
+"Assets/bullet.cs"
 "Assets/CameraFollow.cs"
 "Assets/Controller.cs"
 "Assets/EnemyPatrol.cs"
 "Assets/PlayerHealth.cs"
+"Assets/textdeathspawn.cs"
 -langversion:9.0
 /deterministic
 /optimize+

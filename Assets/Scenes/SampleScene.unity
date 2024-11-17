@@ -190,6 +190,22 @@ PrefabInstance:
       propertyPath: pointB
       value: 
       objectReference: {fileID: 1346552844}
+    - target: {fileID: 8480563217039089823, guid: 410f339498f49a749bd263bb48817b91, type: 3}
+      propertyPath: firerate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480563217039089823, guid: 410f339498f49a749bd263bb48817b91, type: 3}
+      propertyPath: firepoint
+      value: 
+      objectReference: {fileID: 1016073470}
+    - target: {fileID: 8480563217039089823, guid: 410f339498f49a749bd263bb48817b91, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 4035841708911104594, guid: d5ded4db9d83e6043b4a0c846bcea4c9, type: 3}
+    - target: {fileID: 8480563217039089823, guid: 410f339498f49a749bd263bb48817b91, type: 3}
+      propertyPath: fireratetime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -204,13 +220,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 180967638}
+  - component: {fileID: 180967639}
   m_Layer: 0
   m_Name: anoucement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &180967638
 Transform:
   m_ObjectHideFlags: 0
@@ -227,6 +244,19 @@ Transform:
   - {fileID: 904705315}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &180967639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180967637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef798ac9f5bf58a4bb350462a319e2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  announcementText: {fileID: 1561441962}
 --- !u!1 &226145493
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +438,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f84591ce72545258ea98cb7518d8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &291429086 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5340008646694981918, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+  m_PrefabInstance: {fileID: 1945301021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &351654071
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,6 +548,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1516603678}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!4 &400241202 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1964097139446340488, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+  m_PrefabInstance: {fileID: 1666803350}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &584035374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,6 +1098,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1016073470 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4840652951765726535, guid: 410f339498f49a749bd263bb48817b91, type: 3}
+  m_PrefabInstance: {fileID: 19845992}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1346552843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,7 +1189,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1561441961
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1159,11 +1204,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 904705315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 307, y: 200}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 21.00003, y: -16}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1561441962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,7 +1602,8 @@ MonoBehaviour:
   playerPrefab: {fileID: 3544041372138197468, guid: f2cde6d0a880f86468c70aa0d7c60462, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 1
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 4035841708911104594, guid: d5ded4db9d83e6043b4a0c846bcea4c9, type: 3}
   exceptionsDisconnect: 1
   snapshotSettings:
     bufferTimeMultiplier: 2
@@ -1635,6 +1681,22 @@ PrefabInstance:
       propertyPath: pointB
       value: 
       objectReference: {fileID: 848275240}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: firerate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: firepoint
+      value: 
+      objectReference: {fileID: 400241202}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 4035841708911104594, guid: d5ded4db9d83e6043b4a0c846bcea4c9, type: 3}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: fireratetime
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5640941148175782696, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
       propertyPath: m_Name
       value: Ghost
@@ -2095,6 +2157,22 @@ PrefabInstance:
       propertyPath: pointB
       value: 
       objectReference: {fileID: 1613481373}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: firerate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: firepoint
+      value: 
+      objectReference: {fileID: 291429086}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 4035841708911104594, guid: d5ded4db9d83e6043b4a0c846bcea4c9, type: 3}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: fireratetime
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5640941148175782696, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
       propertyPath: m_Name
       value: Ghost (1)

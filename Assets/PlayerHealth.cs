@@ -9,7 +9,7 @@ public class PlayerHealth : NetworkBehaviour
     private float currentHealth ;
     public static bool isDead = false; 
     public TextMeshProUGUI Healthnbrtxt;
-   // public TextMeshProUGUI deathanoucementtxt;
+    //public TextMeshProUGUI  deathanoucementtxt;
 
 
     private void OnHealthChanged(float oldHealth, float newHealth)
@@ -36,11 +36,13 @@ public class PlayerHealth : NetworkBehaviour
 
     public void TakeDamage(float damageAmount)
     {
+        if (!isLocalPlayer) return;
+       
         if (isDead) return; 
 
        // currentHealth -= damageAmount;
        
-        Debug.Log("Player Health: " + currentHealth);
+        //Debug.Log("Player Health: " + currentHealth);
         cmdcommandhealth(currentHealth - damageAmount);
 
 
@@ -55,7 +57,8 @@ public class PlayerHealth : NetworkBehaviour
     {
         isDead = true;
        // Debug.Log("Player has died.");
-        Healthnbrtxt.text = "Dead";  
+        Healthnbrtxt.text = "Dead";
+        cmddeathannoucement();
     }
 
     [Command]
@@ -68,8 +71,10 @@ public class PlayerHealth : NetworkBehaviour
     [ClientRpc]
     private void DieRPC()
     {
+        Debug.Log("dsd"+textdeathspawn.Instance);
+        Debug.Log("sqdsqdsqdqq"+textdeathspawn.Instance.announcementText);
 
-        Debug.Log("Player has died.");
+        textdeathspawn.Instance.textchango("Player " + (GetComponent<Controller>().modelIndex + 1) + " has died.");
 
     }
 
