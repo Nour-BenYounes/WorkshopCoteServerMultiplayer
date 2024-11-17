@@ -31,10 +31,13 @@ public class bullet : NetworkBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Debug.Log("s" + other);
+            Debug.Log("s"+ other.transform.parent);
+            Debug.Log("s"+ other.transform.parent.GetComponentInParent<PlayerHealth>());
             PlayerHealth playerHealth = other.transform.parent.GetComponentInParent<PlayerHealth>();
-
+           
             playerHealth.TakeDamage(damageAmount);
-            Destroy(other.gameObject);
+            Destroy(gameObject);
         }
     }
 }

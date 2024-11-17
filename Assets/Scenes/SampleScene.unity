@@ -203,6 +203,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4035841708911104594, guid: d5ded4db9d83e6043b4a0c846bcea4c9, type: 3}
     - target: {fileID: 8480563217039089823, guid: 410f339498f49a749bd263bb48817b91, type: 3}
+      propertyPath: damageAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480563217039089823, guid: 410f339498f49a749bd263bb48817b91, type: 3}
       propertyPath: fireratetime
       value: 0
       objectReference: {fileID: 0}
@@ -1694,6 +1698,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4035841708911104594, guid: d5ded4db9d83e6043b4a0c846bcea4c9, type: 3}
     - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: damageAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
       propertyPath: fireratetime
       value: 0
       objectReference: {fileID: 0}
@@ -2169,6 +2177,10 @@ PrefabInstance:
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 4035841708911104594, guid: d5ded4db9d83e6043b4a0c846bcea4c9, type: 3}
+    - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
+      propertyPath: damageAmount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1281540951593339910, guid: 504712390eb34b946873d7f1bb40b62c, type: 3}
       propertyPath: fireratetime
       value: 0

@@ -389,6 +389,7 @@
 "Assets/bullet.cs"
 "Assets/CameraFollow.cs"
 "Assets/Controller.cs"
+"Assets/DisableCollidersEditor.cs"
 "Assets/EnemyPatrol.cs"
 "Assets/PlayerHealth.cs"
 "Assets/textdeathspawn.cs"
