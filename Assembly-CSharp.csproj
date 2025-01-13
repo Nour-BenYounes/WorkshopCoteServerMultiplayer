@@ -61,13 +61,61 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\textdeathspawn.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\JsonData.cs" />
+    <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnorancePlayer.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\RestClientPromise.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\HttpBase.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\RequestHelperExtension.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\RestClient.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceCommsNetwork.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\JWT\JWT\IJsonSerializer.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\JWT\JWT\SignatureVerificationException.cs" />
     <Compile Include="Assets\DisableCollidersEditor.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\PromiseTimer.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\Promise_NonGeneric.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\JsonHelper.cs" />
+    <Compile Include="Assets\StrapiForUnity\Scripts\DataModels\Thumbnail.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\Promise.cs" />
     <Compile Include="Assets\bullet.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\Tuple.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\StrapiForUnity\Scripts\DataModels\StrapiFileFormat.cs" />
+    <Compile Include="Assets\StrapiForUnity\Scripts\DataModels\StrapiUser.cs" />
+    <Compile Include="Assets\StrapiForUnity\Scripts\StrapiComponent.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\JWT\JWT\DefaultJsonSerializer.cs" />
     <Compile Include="Assets\Billboard.cs" />
     <Compile Include="Assets\Controller.cs" />
     <Compile Include="Assets\EnemyPatrol.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\Lexer.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\JsonException.cs" />
+    <Compile Include="Assets\StrapiForUnity\Scripts\DataModels\StrapiFile.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\ResponseHelper.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\JsonReader.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceServer.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\Exceptions\PromiseException.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\Extensions.cs" />
+    <Compile Include="Assets\StrapiForUnity\Scripts\Utilities\InputFocusTab.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\Common.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\StaticCoroutine.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\StrapiForUnity\Scripts\DataModels\AuthResponse.cs" />
+    <Compile Include="Assets\TextChat.cs" />
+    <Compile Include="Assets\Dissonance\Core\Jetbrains.cs" />
     <Compile Include="Assets\PlayerHealth.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\RequestException.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\PromiseHelpers.cs" />
+    <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\Demo\MirrorIgnorancePlayerController.cs" />
+    <Compile Include="Assets\StrapiForUnity\Example Scenes\LoginOrRegister\Scripts\LoginOrRegisterForm.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\JWT\JWT\JWT.cs" />
+    <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceClient.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\Proyecto26.RestClient\Helpers\RequestHelper.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\Exceptions\PromiseStateException.cs" />
+    <Compile Include="Assets\StrapiForUnity\Libs\RestClient\RSG.Promise\EnumerableExt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
@@ -79,12 +127,15 @@
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Dissonance\changelog.txt" />
+    <None Include="Assets\Dissonance\Integrations\MirrorIgnorance\Demo\README.txt" />
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Mirror\Version.txt" />
     <None Include="Assets\Mirror\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Dissonance\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
@@ -97,6 +148,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Dissonance\Integrations\MirrorIgnorance\README.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
@@ -1068,6 +1120,14 @@
     <ProjectReference Include="EncryptionTransportEditor.csproj">
       <Project>{A88AF4E9-F52D-299A-387A-D363B31FF264}</Project>
       <Name>EncryptionTransportEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="DissonanceVoipEditor.csproj">
+      <Project>{8E1329C1-7397-E51F-11F4-31CAC6F28F4C}</Project>
+      <Name>DissonanceVoipEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="DissonanceVoip.csproj">
+      <Project>{18BAE45F-DC8B-12CA-736C-CA213E8123C8}</Project>
+      <Name>DissonanceVoip</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
       <Project>{41427183-A469-2EB0-2C5C-A2F5A5BD2777}</Project>

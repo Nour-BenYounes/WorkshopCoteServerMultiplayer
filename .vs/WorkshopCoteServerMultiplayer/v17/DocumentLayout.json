@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|d:\\users\\asako\\documents\\github\\workshopcoteservermultiplayer\\assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|d:\\users\\asako\\documents\\github\\workshopcoteservermultiplayer\\assets\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|d:\\users\\asako\\documents\\github\\workshopcoteservermultiplayer\\assets\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\textchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\textchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\textdeathspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\textdeathspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\disablecolliderseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\disablecolliderseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{623D8A61-EEB2-7045-2C2F-120A784A22EB}|Assembly-CSharp.csproj|solutionrelative:assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,37 +46,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "bullet.cs",
-              "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\bullet.cs",
-              "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\bullet.cs",
-              "RelativeToolTip": "Assets\\bullet.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TextChat.cs",
+              "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\TextChat.cs",
+              "RelativeDocumentMoniker": "Assets\\TextChat.cs",
+              "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\TextChat.cs",
+              "RelativeToolTip": "Assets\\TextChat.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwCcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T11:17:25.528Z",
+              "WhenOpened": "2024-11-19T08:54:34.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Controller.cs",
+              "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\Controller.cs",
+              "RelativeToolTip": "Assets\\Controller.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowHkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:20:34.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "bullet.cs",
+              "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\bullet.cs",
+              "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\bullet.cs",
+              "RelativeToolTip": "Assets\\bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:17:25.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DisableCollidersEditor.cs",
+              "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\DisableCollidersEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\DisableCollidersEditor.cs",
+              "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\DisableCollidersEditor.cs",
+              "RelativeToolTip": "Assets\\DisableCollidersEditor.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:17:38.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "textdeathspawn.cs",
               "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\textdeathspawn.cs",
               "RelativeDocumentMoniker": "Assets\\textdeathspawn.cs",
               "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\textdeathspawn.cs",
               "RelativeToolTip": "Assets\\textdeathspawn.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T08:23:35.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T08:23:35.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Billboard.cs",
               "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\Billboard.cs",
               "RelativeDocumentMoniker": "Assets\\Billboard.cs",
@@ -80,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\CameraFollow.cs",
@@ -92,41 +135,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EnemyPatrol.cs",
               "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\EnemyPatrol.cs",
               "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\EnemyPatrol.cs",
               "RelativeToolTip": "Assets\\EnemyPatrol.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T07:40:18.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T07:40:18.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Controller.cs",
-              "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\Controller.cs",
-              "RelativeDocumentMoniker": "Assets\\Controller.cs",
-              "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\Controller.cs",
-              "RelativeToolTip": "Assets\\Controller.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T07:20:34.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerHealth.cs",
               "ToolTip": "D:\\Users\\Asako\\Documents\\GitHub\\WorkshopCoteServerMultiplayer\\Assets\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\PlayerHealth.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwC0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:01:22.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T09:01:22.079Z"
             }
           ]
         }

@@ -40,6 +40,9 @@ public class Controller : NetworkBehaviour
        Camera.main.GetComponent<CameraFollow>().target = transform;
         Camera.main.GetComponent<CameraFollow>().decalagestart();
 
+        ///chat
+        TextChat.Instance.Playersend(this);
+
     }
 
     [Command]
@@ -100,4 +103,23 @@ public class Controller : NetworkBehaviour
         }
       
     }
+    //////////////////////chat
+    ///
+
+   
+
+
+    [Command]
+    public void CmdSend(string message)
+    {
+        int connectionId = connectionToClient.connectionId;
+        Debug.Log($"Connection ID of the player: {connectionId}");
+        RpcSend(message + $" (From Connection ID: {connectionId})");
+    }
+    [ClientRpc]
+    public void RpcSend(string message)
+    {
+        TextChat.Instance.writeMessage(message);
+    }
+
 }
